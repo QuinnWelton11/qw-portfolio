@@ -8,23 +8,23 @@ export const projectsData = [
     image: MexacleanImg,
     title: "Mexaclean",
     description:
-      "A custom designed website for a local cleaning business in Vancouver, BC.",
-    link: "https://mexaclean.ca",
+      "A custom designed website for a local cleaning business in Vancouver, BC. This website features a custom admin dashboard using Supabase, and a contact form powered by EmailJS",
+    link: "https://github.com/QuinnWelton11/mexaclean",
   },
   {
     id: 2,
     image: TerrafamImg,
     title: "Terrafamilia",
     description:
-      "A custom designed website for a local cleaning business in Vancouver, BC.",
-    link: "https://mexaclean.ca",
+      "A custom designed forum featuring user login, authentication, post creation, post editing, and more! Powered by React, Supabase and Tailwindcss.",
+    link: "https://terrafamilia.net",
   },
   {
     id: 3,
     image: MovieDbImg,
     title: "Movie Database",
     description:
-      "A custom designed website for a local cleaning business in Vancouver, BC.",
-    link: "https://mexaclean.ca",
+      "A school project with the goal being learning how to integrate API's into your website, in this case, I used TMDB's API to create a movie database.",
+    link: "https://github.com/QuinnWelton11/movieDatabase",
   },
 ];
