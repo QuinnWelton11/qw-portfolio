@@ -6,10 +6,11 @@ import Projects from "./pages/Projects";
 import Stack from "./pages/Stack";
 import qwBgVid from "./assets/qw-bg-vid.webm";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="relative min-h-screen mx-5">
+    <div className="relative min-h-screen overflow-x-hidden">
       <Header />
       <video
         className="fixed top-0 left-0 w-full h-full object-cover -z-10"
@@ -24,6 +25,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/stack" element={<Stack />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import LogoImg from "../assets/qw-logo-1.png";
 
 function Logo() {
   return (
-    <div className="logo h-10 w-10">
+    <div className="logo h-12 w-12">
       <img src={LogoImg} alt="QW Logo" />
     </div>
   );
