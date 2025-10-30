@@ -1,13 +1,5 @@
 import { NavLink } from "react-router-dom";
-import {
-  House,
-  FolderDot,
-  FolderOpenDot,
-  Code,
-  CircleUserRound,
-  Menu,
-  X,
-} from "lucide-react";
+import { House, FolderDot, Code, CircleUserRound, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const NavLinks = () => {
