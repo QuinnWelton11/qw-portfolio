@@ -40,16 +40,16 @@ const NavLinks = () => {
 function Footer() {
   return (
     <footer className="grid grid-cols-1 md:grid-cols-3 border-t-2 py-10 px-3 mt-10 gap-5 border-cyan-300 items-center justify-between text-white">
-      <div className="flex justify-center">
+      <div>
         <Logo />
       </div>
 
-      <div className="flex flex-row gap-3 justify-center">
+      <div className="flex flex-row justify-center md:justify-center gap-5">
         <NavLinks />
       </div>
 
-      <div className="text-center">
-        <p>Copyright &copy; 2025 My Website.</p>
+      <div className="text-center md:text-right">
+        <p className="whitespace-nowrap">Copyright &copy; 2025</p>
       </div>
     </footer>
   );

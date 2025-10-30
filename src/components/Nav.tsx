@@ -15,28 +15,28 @@ const NavLinks = () => {
     <>
       <NavLink
         to="/"
-        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl"
+        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl focus:text-cyan-50 focus:underline"
       >
         <House className="w-4 h-4" />
         Home
       </NavLink>
       <NavLink
         to="/projects"
-        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl"
+        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl focus:text-cyan-50 focus:underline focus:text-xl"
       >
         <FolderDot className="w-4 h-4" />
         Projects
       </NavLink>
       <NavLink
         to="/stack"
-        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl"
+        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl focus:text-cyan-50 focus:underline focus:text-xl"
       >
         <Code className="w-4 h-4" />
         Stack
       </NavLink>
       <NavLink
         to="/about"
-        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl"
+        className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl focus:text-cyan-50 focus:underline focus:text-xl"
       >
         <CircleUserRound className="w-4 h-4" />
         About

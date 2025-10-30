@@ -17,10 +17,13 @@ export default function Home() {
           </h2>
 
           <p className="md:text-left mr-5">
-            I am a Front-End Web Developer focused on responsive webpages with
-            modern designs! I am a Front-End Web Developer focused on responsive
-            webpages with modern designs! I am a Front-End Web Developer focused
-            on responsive webpages with modern designs!
+            I am a Front-End Web Developer and Designer, with experience using
+            React, HTML5, CSS3, JavaScript, Figma, and more! I'm currently
+            seeking employment in an entry-level front-end role.{" "}
+            <span className="text-amber-300 font-semibold">
+              This portfolio is currently unfinished, please check back soon to
+              see the final version.
+            </span>
           </p>
 
           <button className="bg-cyan-800 border-2 border-cyan-300/30 shadow-cyan-300/20 shadow-md w-full px-5 py-2 rounded-full hover:bg-cyan-900 hover:py-2.5 hover:shadow-lg mt-5">

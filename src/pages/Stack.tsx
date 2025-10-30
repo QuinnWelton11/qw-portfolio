@@ -1,3 +1,9 @@
+import ComingSoon from "../components/ComingSoon";
+
 export default function Stack() {
-  return <h2>Stack Page</h2>;
+  return (
+    <div>
+      <ComingSoon />
+    </div>
+  );
 }
