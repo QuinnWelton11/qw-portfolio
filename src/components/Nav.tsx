@@ -6,7 +6,7 @@ const NavLinks = () => {
   return (
     <>
       <NavLink
-        to="/"
+        to="/qw-portfolio"
         className="flex flex-row items-center gap-1.5 text-lg hover:text-cyan-50 hover:text-shadow-cyan-300/20 hover:text-shadow-md hover:text-xl focus:text-cyan-50 focus:underline"
       >
         <House className="w-4 h-4" />
